@@ -1,6 +1,9 @@
 import 'package:bookly_app/core/constants/assets/assets_images.dart';
+import 'package:bookly_app/core/constants/durations/duration.dart';
+import 'package:bookly_app/features/home/presentation/views/home_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import 'sliding_text.dart';
 
@@ -21,6 +24,8 @@ class _SplashViewBodyState extends State<SplashViewBody>
     super.initState();
 
     initAnimationSliding();
+
+    initNavigationTransition();
   }
 
   @override
@@ -40,6 +45,14 @@ class _SplashViewBodyState extends State<SplashViewBody>
             .animate(animationController);
 
     animationController.forward();
+  }
+
+  void initNavigationTransition() {
+    Future.delayed(const Duration(seconds: 2), () {
+      Get.to(() {
+        return const HomeView();
+      }, transition: Transition.downToUp, duration: CustomDuration.k3Duration);
+    });
   }
 
   @override
