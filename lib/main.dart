@@ -1,3 +1,4 @@
+import 'package:bookly_app/core/themes/color_app.dart';
 import 'package:bookly_app/features/presentation/views/splash_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -9,11 +10,13 @@ void main() {
 class BooklyApp extends StatelessWidget {
   const BooklyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const GetMaterialApp(
-      home: SplashView(),
+    return GetMaterialApp(
+      theme: ThemeData().copyWith(
+        scaffoldBackgroundColor: ColorApp.kPrimaryColor,
+      ),
+      home: const SplashView(),
     );
   }
 }
