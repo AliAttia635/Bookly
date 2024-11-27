@@ -12,26 +12,27 @@ class HomeViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Padding(
-      padding: EdgeInsets.symmetric(horizontal: 24.0, vertical: 12),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const CustomAppBar(),
-          const ListViewFeaturedItem(),
-          const SizedBox(
-            height: 20,
-          ),
-          const Text(
-            "Best Seller",
-            style: Styles.semiBold18,
-            // textAlign: TextAlign.left,
-          ),
-          const SizedBox(
-            height: 25,
-          ),
-          ListViewBestSeller()
-        ],
+    return Padding(
+      padding: EdgeInsets.symmetric(horizontal: 30, vertical: 12),
+      child: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const ListViewFeaturedItem(),
+            const SizedBox(
+              height: 20,
+            ),
+            Text(
+              "Best Seller",
+              style: Styles.textStyle18,
+              // textAlign: TextAlign.left,
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+            ListViewBestSeller()
+          ],
+        ),
       ),
     );
   }

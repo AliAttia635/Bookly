@@ -1,4 +1,7 @@
+import 'package:bookly_app/core/constants/fonts/fonts.dart';
+import 'package:bookly_app/core/themes/styles.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class BestSellerDetails extends StatelessWidget {
   const BestSellerDetails({
@@ -7,15 +10,23 @@ class BestSellerDetails extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Expanded(
+    return Expanded(
       child: Column(
+        // mainAxisAlignment: MainAxisAlignment.start,
         children: [
           ListTile(
             title: Text(
-              "the jungle book",
-              style: TextStyle(fontSize: 21, fontWeight: FontWeight.bold),
+              "Harry Potter And the Goblet of fire sdsdsdvdsvsdvsdvsdvsdv",
+              style: Styles.textStyle20.copyWith(
+                fontFamily: kGtSectraFine,
+              ),
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
             ),
-            subtitle: Text("RudYard Kipling"),
+            subtitle: Text(
+              "RudYard Kipling",
+              style: Styles.textStyle14,
+            ),
           ),
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 14.0),
@@ -24,9 +35,32 @@ class BestSellerDetails extends StatelessWidget {
               children: [
                 Text(
                   "19.99 \$",
-                  style: TextStyle(fontSize: 21, fontWeight: FontWeight.bold),
+                  style:
+                      Styles.textStyle20.copyWith(fontWeight: FontWeight.bold),
                 ),
-                Text("4.8 (2390)")
+                Row(
+                  children: [
+                    Icon(
+                      FontAwesomeIcons.solidStar,
+                      color: Colors.yellow,
+                      size: 16,
+                    ),
+                    const SizedBox(
+                      width: 6.5,
+                    ),
+                    Text(
+                      "4.8",
+                      style: Styles.textStyle16,
+                    ),
+                    const SizedBox(
+                      width: 5,
+                    ),
+                    Text(
+                      "(2390)",
+                      style: Styles.textStyle14.copyWith(color: Colors.grey),
+                    ),
+                  ],
+                )
               ],
             ),
           )

@@ -9,10 +9,18 @@ class BestSellerItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: MediaQuery.of(context).size.height * .2,
-      child: const Row(
-        children: [BestSellerImage(), BestSellerDetails()],
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 10.0),
+      child: Container(
+        // color: Colors.red,
+        child: SizedBox(
+          // CrossAxisAlignment.start بتعمل نفس شغل ال
+          height: MediaQuery.of(context).size.height * .2,
+          child: const Row(
+            // crossAxisAlignment: CrossAxisAlignment.start,
+            children: [BestSellerImage(), BestSellerDetails()],
+          ),
+        ),
       ),
     );
   }

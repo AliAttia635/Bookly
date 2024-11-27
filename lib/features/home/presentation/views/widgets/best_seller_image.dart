@@ -13,9 +13,10 @@ class BestSellerImage extends StatelessWidget {
       child: AspectRatio(
         aspectRatio: 1.2 / 2,
         child: Container(
-          decoration: const BoxDecoration(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(8),
             image: DecorationImage(
-                image: AssetImage(AssetsImages.testImage), fit: BoxFit.fill),
+                image: AssetImage(AssetsImages.testFlick), fit: BoxFit.fill),
           ),
         ),
       ),
