@@ -9,8 +9,8 @@ class ListViewBestSeller extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      // shrinkWrap:
-      //     true, // Ensures the ListView only takes up the space it needs.
+      shrinkWrap:
+          true, // Ensures the ListView only takes up the space it needs.
       physics: NeverScrollableScrollPhysics(),
       padding: EdgeInsets.zero,
       itemCount: 10,

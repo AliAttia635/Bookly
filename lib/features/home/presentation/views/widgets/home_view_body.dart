@@ -28,12 +28,10 @@ class HomeViewBody extends StatelessWidget {
                 const SizedBox(
                   height: 20,
                 ),
+                const ListViewBestSeller(),
               ],
             ),
           ),
-          SliverFillRemaining(
-            child: const ListViewBestSeller(),
-          )
         ],
       ),
     );
