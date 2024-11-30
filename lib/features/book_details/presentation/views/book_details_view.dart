@@ -14,13 +14,19 @@ class BookDetailsView extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: ColorApp.kPrimaryColor,
         title: CustomAppBar(
-          appBarWidget: Icon(
-            FontAwesomeIcons.xmark,
-            size: 30,
+          appBarWidget: IconButton(
+            icon: Icon(
+              FontAwesomeIcons.xmark,
+              size: 30,
+            ),
+            onPressed: () {
+              Navigator.pop(context);
+            },
           ),
           icon: Icon(FontAwesomeIcons.cartShopping),
           onPressed: () {},
         ),
+        automaticallyImplyLeading: false,
       ),
       body: BookDetailsBody(),
     );

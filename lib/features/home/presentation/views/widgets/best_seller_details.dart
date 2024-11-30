@@ -1,4 +1,5 @@
 import 'package:bookly_app/core/constants/fonts/fonts.dart';
+import 'package:bookly_app/core/shared_widgets/rating.dart';
 import 'package:bookly_app/core/themes/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -16,7 +17,7 @@ class BestSellerDetails extends StatelessWidget {
         children: [
           ListTile(
             title: Text(
-              "Harry Potter And the Goblet of fire sdsdsdvdsvsdvsdvsdvsdv",
+              "Harry Potter And the Goblet of fire",
               style: Styles.textStyle20.copyWith(
                 fontFamily: kGtSectraFine,
               ),
@@ -38,28 +39,9 @@ class BestSellerDetails extends StatelessWidget {
                   style:
                       Styles.textStyle20.copyWith(fontWeight: FontWeight.bold),
                 ),
-                Row(
-                  children: [
-                    Icon(
-                      FontAwesomeIcons.solidStar,
-                      color: Colors.yellow,
-                      size: 16,
-                    ),
-                    const SizedBox(
-                      width: 6.5,
-                    ),
-                    Text(
-                      "4.8",
-                      style: Styles.textStyle16,
-                    ),
-                    const SizedBox(
-                      width: 5,
-                    ),
-                    Text(
-                      "(2390)",
-                      style: Styles.textStyle14.copyWith(color: Colors.grey),
-                    ),
-                  ],
+                const Rating(
+                  rate: 4.8,
+                  ratingNumber: 2390,
                 )
               ],
             ),
