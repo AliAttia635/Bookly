@@ -1,9 +1,11 @@
 import 'package:bookly_app/core/constants/assets/assets_images.dart';
 import 'package:bookly_app/core/constants/durations/duration.dart';
+import 'package:bookly_app/core/constants/routes/routing.dart';
 import 'package:bookly_app/features/home/presentation/views/home_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:go_router/go_router.dart';
 
 import 'sliding_text.dart';
 
@@ -48,11 +50,12 @@ class _SplashViewBodyState extends State<SplashViewBody>
   }
 
   void initNavigationTransition() {
-    Future.delayed(const Duration(seconds: 2), () {
-      Get.to(() {
-        return const HomeView();
-      }, transition: Transition.downToUp, duration: CustomDuration.k3Duration);
-    });
+    Future.delayed(
+      const Duration(seconds: 2),
+      () {
+        GoRouter.of(context).push(Routes.kHomeView);
+      },
+    );
   }
 
   @override
