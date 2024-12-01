@@ -30,6 +30,7 @@ class PriceAndFreePreveiw extends StatelessWidget {
               topRight: Radius.circular(18),
               bottomRight: Radius.circular(18),
             ),
+            sizeFont: 16,
           ),
         ],
       ),
