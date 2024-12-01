@@ -9,7 +9,7 @@ class BookImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: MediaQuery.of(context).size.height * .29,
+      height: MediaQuery.of(context).size.height * .35,
       child: AspectRatio(
         aspectRatio: 1.95 / 3,
         child: Container(
