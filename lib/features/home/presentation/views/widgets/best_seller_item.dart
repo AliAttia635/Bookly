@@ -1,5 +1,5 @@
 import 'package:bookly_app/core/constants/routes/app_router.dart';
-import 'package:bookly_app/core/constants/routes/routing.dart';
+import 'package:bookly_app/core/constants/routes/routes.dart';
 import 'package:bookly_app/features/book_details/presentation/views/book_details_view.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/best_seller_details.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/best_seller_image.dart';
