@@ -1,4 +1,3 @@
-import 'package:bookly_app/core/constants/fonts/fonts.dart';
 import 'package:flutter/material.dart';
 
 abstract class Styles {

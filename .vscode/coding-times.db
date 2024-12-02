@@ -11,14 +11,16 @@
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\book_details\\presentation\\views\\book_details_view.dart","last_edit":1733009111285,"total_time":364012,"is_writing":0,"_id":"CFsQ90j8HEeyg6DR"}
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\presentation\\views\\widgets\\home_view_body.dart","last_edit":1732718038002,"total_time":16976565,"is_writing":0,"_id":"CL2DMd0GVV0P0Lsh"}
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\book_details\\presentation\\views\\widgets\\book_image.dart","last_edit":1733088635292,"total_time":15643683,"is_writing":0,"_id":"Cr9PMwCXLJDyrYQ4"}
-{"file_path":"git\\scm0\\input","last_edit":1733095977377,"total_time":30650944,"is_writing":0,"_id":"DuStSd09LP75Z88Z"}
+{"file_path":"git\\scm0\\input","last_edit":1733107858787,"total_time":30710683,"is_writing":0,"_id":"DuStSd09LP75Z88Z"}
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\core\\themes\\color_app.dart","last_edit":1732067386768,"total_time":24,"is_writing":0,"_id":"FncPqtWXmPMM3DRv"}
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\core\\constants\\assets\\assets_images.dart","last_edit":1732712275124,"total_time":357486,"is_writing":0,"_id":"G2KBOLhNk4AoYGfb"}
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\presentation\\views\\widgets\\custom_app_bar.dart","last_edit":1732713815705,"total_time":122754,"is_writing":0,"_id":"He11KdXITA95yHnT"}
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\presentation\\views\\widgets\\splash_view_body.dart.git","last_edit":1732124227548,"total_time":2121384,"is_writing":0,"_id":"IagEP0zlqDfzDwQQ"}
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\book_details\\presentation\\views\\widgets\\custom_button.dart","last_edit":1733092957249,"total_time":931880,"is_writing":0,"_id":"JiMMkUTL7dVbC4wy"}
+{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart.git","last_edit":1733107860097,"total_time":7,"is_writing":0,"_id":"JtQa3bXjQ9zXEEkY"}
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\presentation\\views\\widgets\\sliding_text.dart.git","last_edit":1732124227563,"total_time":5,"is_writing":0,"_id":"KpJTaaanpuy2DLET"}
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\books_search\\presentation\\views\\search_view.dart","last_edit":1733093936509,"total_time":25365,"is_writing":0,"_id":"Lk98PW4R3fX9Vcad"}
+{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733107860066,"total_time":226224,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\presentation\\views\\widgets\\list_view_best_seller.dart","last_edit":1732717984171,"total_time":94522,"is_writing":0,"_id":"NedQ09NMzQ0lMcyP"}
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\book_details\\presentation\\views\\widgets\\book_details_body.dart.git","last_edit":1733012494367,"total_time":6,"is_writing":0,"_id":"NrmxvBziegJdlVu4"}
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\core\\constants\\durations\\duration.dart","last_edit":1732126215518,"total_time":200415,"is_writing":0,"_id":"Nx6DZBAxQgHoMs5J"}
@@ -37,6 +39,7 @@
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\book_details\\presentation\\views\\widgets\\similar_books_item.dart","last_edit":1733011936631,"total_time":108787,"is_writing":0,"_id":"aTIN88w8Q63z3h2y"}
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\book_details\\presentation\\views\\widgets\\book_details_body.dart","last_edit":1733091913457,"total_time":1869429,"is_writing":0,"_id":"aegj9XiNt4iSZqhq"}
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\core\\shared_widgets\\rating.dart","last_edit":1733092310740,"total_time":81860,"is_writing":0,"_id":"arvVrTDGJYnX16Pb"}
+{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\bok_model.dart","last_edit":1733104783212,"total_time":11040,"is_writing":0,"_id":"b4JjmjUQgIIA1U7f"}
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\core\\constants\\routes\\routing.dart","last_edit":1733093782608,"total_time":218078,"is_writing":0,"_id":"bR5gu5pGd3oR1eZQ"}
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\book_details\\presentation\\views\\book_details_view.dart.git","last_edit":1733009148920,"total_time":15,"is_writing":0,"_id":"cMmyKU9WjmhWxPMX"}
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\core\\shared_widgets\\custom_app_bar.dart","last_edit":1732924419646,"total_time":3052024,"is_writing":0,"_id":"dwZRXndaxGhF6snl"}
@@ -59,29 +62,21 @@
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\presentation\\views\\widgets\\custom_featured_item.dart.git","last_edit":1732146788690,"total_time":55624,"is_writing":0,"_id":"z1HHvNVYaP24BWkt"}
 {"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\presentation\\views\\splash_view.dart","last_edit":1732124721621,"total_time":1596860,"is_writing":0,"_id":"z76TZx7Y4x2ApBJd"}
 {"file_path":"vscode.git.Git","last_edit":1732714272515,"total_time":14754,"is_writing":0,"_id":"zvjuN6E9BzGM3bcv"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\bok_model.dart","last_edit":1733104783212,"total_time":11040,"is_writing":0,"_id":"b4JjmjUQgIIA1U7f"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733104812430,"total_time":3267,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733104924865,"total_time":109007,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733104937987,"total_time":116207,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733105100187,"total_time":123581,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733105120112,"total_time":130907,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733105152860,"total_time":133446,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733105160116,"total_time":133721,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733105203091,"total_time":133734,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733105221510,"total_time":141597,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733105240346,"total_time":154700,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733105325631,"total_time":154714,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733105333819,"total_time":157868,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733105351054,"total_time":157875,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733105368683,"total_time":157875,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733105379572,"total_time":157878,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733105399507,"total_time":159589,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733105479122,"total_time":160773,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733105515968,"total_time":160773,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733105542154,"total_time":161571,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733105547365,"total_time":161577,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733105575917,"total_time":166691,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733105601594,"total_time":171658,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"git\\scm0\\input","last_edit":1733107828439,"total_time":30650949,"is_writing":0,"_id":"DuStSd09LP75Z88Z"}
-{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\models\\book_model.dart","last_edit":1733107839106,"total_time":171661,"is_writing":0,"_id":"Lop0uRhApW3iFQim"}
-{"file_path":"git\\scm0\\input","last_edit":1733107851583,"total_time":30656496,"is_writing":0,"_id":"DuStSd09LP75Z88Z"}
+{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\presentation\\views\\widgets\\best_seller_details.dart","last_edit":1733169091165,"total_time":16798520,"is_writing":0,"_id":"rlP8HgqHP1bM51J5"}
+{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\book_details\\presentation\\views\\widgets\\book_details_body.dart","last_edit":1733169109680,"total_time":1869442,"is_writing":0,"_id":"aegj9XiNt4iSZqhq"}
+{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\core\\themes\\styles.dart","last_edit":1733169121367,"total_time":794805,"is_writing":0,"_id":"xH2zAmCbhLX9Fr2J"}
+{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\splash\\presentation\\views\\widgets\\splash_view_body.dart","last_edit":1733169144859,"total_time":318090,"is_writing":0,"_id":"sjX3D6X2xFRdIXoD"}
+{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\repos\\home_repo.dart","last_edit":1733169180904,"total_time":1689,"is_writing":0,"_id":"c3wo34AURAEPZCVU"}
+{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\repos\\home_repo.dart","last_edit":1733169190170,"total_time":5693,"is_writing":0,"_id":"c3wo34AURAEPZCVU"}
+{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\repos\\home_repo.dart","last_edit":1733170287405,"total_time":11519,"is_writing":0,"_id":"c3wo34AURAEPZCVU"}
+{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\repos\\home_repo.dart","last_edit":1733170319195,"total_time":38008,"is_writing":0,"_id":"c3wo34AURAEPZCVU"}
+{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\repos\\home_repo.dart","last_edit":1733170333666,"total_time":44368,"is_writing":0,"_id":"c3wo34AURAEPZCVU"}
+{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\repos\\home_repo.dart","last_edit":1733170375946,"total_time":65375,"is_writing":0,"_id":"c3wo34AURAEPZCVU"}
+{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\repos\\home_repo.dart","last_edit":1733170383804,"total_time":65389,"is_writing":0,"_id":"c3wo34AURAEPZCVU"}
+{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\repos\\home_repo.dart","last_edit":1733170487548,"total_time":67952,"is_writing":0,"_id":"c3wo34AURAEPZCVU"}
+{"file_path":"e:\\New Flutter Projects\\bookly_app\\lib\\features\\home\\data\\repos\\home_repo.dart","last_edit":1733170502585,"total_time":74332,"is_writing":0,"_id":"c3wo34AURAEPZCVU"}
+{"file_path":"git\\scm0\\input","last_edit":1733170511049,"total_time":30710698,"is_writing":0,"_id":"DuStSd09LP75Z88Z"}
+{"file_path":"git\\scm0\\input","last_edit":1733170557398,"total_time":30744835,"is_writing":0,"_id":"DuStSd09LP75Z88Z"}
+{"file_path":"git\\scm0\\input","last_edit":1733170562901,"total_time":30744845,"is_writing":0,"_id":"DuStSd09LP75Z88Z"}
+{"file_path":"git\\scm0\\input","last_edit":1733170579172,"total_time":30754776,"is_writing":0,"_id":"DuStSd09LP75Z88Z"}
+{"file_path":"git\\scm0\\input","last_edit":1733170609772,"total_time":30768844,"is_writing":0,"_id":"DuStSd09LP75Z88Z"}

@@ -1,4 +1,3 @@
-import 'package:bookly_app/core/themes/styles.dart';
 import 'package:bookly_app/features/book_details/presentation/views/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
 

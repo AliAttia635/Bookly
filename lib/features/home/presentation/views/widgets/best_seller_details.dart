@@ -2,7 +2,6 @@ import 'package:bookly_app/core/constants/fonts/fonts.dart';
 import 'package:bookly_app/core/shared_widgets/rating.dart';
 import 'package:bookly_app/core/themes/styles.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class BestSellerDetails extends StatelessWidget {
   const BestSellerDetails({

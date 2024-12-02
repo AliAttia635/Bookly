@@ -2,7 +2,6 @@ import 'package:bookly_app/core/constants/fonts/fonts.dart';
 import 'package:bookly_app/core/shared_widgets/rating.dart';
 import 'package:bookly_app/core/themes/styles.dart';
 import 'package:bookly_app/features/book_details/presentation/views/widgets/book_image.dart';
-import 'package:bookly_app/features/book_details/presentation/views/widgets/custom_button.dart';
 import 'package:bookly_app/features/book_details/presentation/views/widgets/price_and_free_preview.dart';
 
 import 'package:bookly_app/features/book_details/presentation/views/widgets/similar_books_list_view.dart';
