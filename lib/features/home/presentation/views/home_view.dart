@@ -22,7 +22,7 @@ class HomeView extends StatelessWidget {
               width: 80,
               height: 80,
             ),
-            icon: Icon(
+            icon: const Icon(
               FontAwesomeIcons.magnifyingGlass,
               size: 26,
             ),
@@ -34,7 +34,7 @@ class HomeView extends StatelessWidget {
         backgroundColor: ColorApp.kPrimaryColor,
         automaticallyImplyLeading: false,
       ),
-      body: SafeArea(child: HomeViewBody()),
+      body: const SafeArea(child: HomeViewBody()),
     );
   }
 }
