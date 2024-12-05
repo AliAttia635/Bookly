@@ -20,9 +20,11 @@ class HomeRepoImplementaion implements HomeRepo {
       // for (var item in data['items']) {
       //   books.add(BookModel.fromJson(item));
       // }
+      // return right(books);
 
-      return right(
-          data['items'].map((item) => BookModel.fromJson(item)).toList());
+      return right(data['items']
+          .map<BookModel>((item) => BookModel.fromJson(item))
+          .toList());
     } catch (e) {
       if (e is DioException) {
         return left(ServerFailure.fromDioException(e));

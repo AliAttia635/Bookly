@@ -1,5 +1,5 @@
 import 'package:bookly_app/features/home/presentation/manager/featured_books_cubit/featured_books_cubit.dart';
-import 'package:bookly_app/features/home/presentation/views/widgets/custom_featured_item.dart';
+import 'package:bookly_app/features/home/presentation/views/widgets/featured_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -19,7 +19,10 @@ class ListViewFeaturedItem extends StatelessWidget {
                 itemCount: 7,
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
-                  return CustomFeaturedItem();
+                  return FeaturedItem(
+                    imageUrl: state
+                        .booksList[index].volumeInfo!.imageLinks!.thumbnail!,
+                  );
                 }),
           );
         } else if (state is FeaturedBooksFailure) {
