@@ -28,7 +28,7 @@ class BooklyApp extends StatelessWidget {
         BlocProvider(
           create: (context) => NewestBooksCubit(
             getit.get<HomeRepoImplementaion>(),
-          ),
+          )..getNewestBooks(),
         ),
       ],
       child: MaterialApp.router(

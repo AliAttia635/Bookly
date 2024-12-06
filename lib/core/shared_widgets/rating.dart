@@ -8,7 +8,7 @@ class Rating extends StatelessWidget {
     required this.rate,
     required this.ratingNumber,
   });
-  final double rate;
+  final num rate;
   final int ratingNumber;
 
   @override

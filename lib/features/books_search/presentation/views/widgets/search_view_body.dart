@@ -1,6 +1,7 @@
 import 'package:bookly_app/core/themes/styles.dart';
 import 'package:bookly_app/features/books_search/presentation/views/widgets/custom_text_field.dart';
-import 'package:bookly_app/features/home/presentation/views/widgets/best_seller_item.dart';
+import 'package:bookly_app/features/home/presentation/views/widgets/neweset_books_item.dart';
+
 import 'package:flutter/material.dart';
 
 class SearchViewBody extends StatelessWidget {
@@ -44,7 +45,8 @@ class ListViewSearchResult extends StatelessWidget {
         padding: EdgeInsets.zero,
         itemCount: 10,
         itemBuilder: (context, index) {
-          return BestSellerItem();
+          // return NewestBooksItem();
+          return Text("test");
         },
       ),
     );
