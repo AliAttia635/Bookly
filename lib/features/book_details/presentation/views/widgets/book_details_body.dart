@@ -16,14 +16,14 @@ class BookDetailsBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 12),
+      padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 6),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           CustomBookImage(
             imageUrl: bookModel.volumeInfo.imageLinks?.thumbnail ?? "",
           ),
-          SizedBox(
+          const SizedBox(
             height: 5,
           ),
           Text(
@@ -44,7 +44,7 @@ class BookDetailsBody extends StatelessWidget {
             ratingNumber: bookModel.volumeInfo.ratingsCount ?? 0,
           ),
           const SizedBox(
-            height: 20,
+            height: 12,
           ),
           const PriceAndFreePreveiw(),
           const SizedBox(

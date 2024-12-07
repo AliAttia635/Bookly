@@ -20,11 +20,7 @@ class ListViewFeaturedItem extends StatelessWidget {
                 itemCount: state.booksList.length,
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
-                  return FeaturedItem(
-                    imageUrl: state.booksList[index].volumeInfo.imageLinks
-                            ?.thumbnail ??
-                        "https://media.istockphoto.com/id/2060984408/photo/stack-of-colorful-books-education-background-back-to-school-book-hardback-colorful-books-on.jpg?s=2048x2048&w=is&k=20&c=fMIu6GS3-sZtPEOMbFVhzFEgu3voYWaLJkuWXaFRsxY=",
-                  );
+                  return FeaturedItem(bookModel: state.booksList[index]);
                 }),
           );
         } else if (state is FeaturedBooksFailure) {
