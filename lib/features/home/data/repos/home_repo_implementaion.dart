@@ -66,7 +66,8 @@ class HomeRepoImplementaion implements HomeRepo {
       {required String category}) async {
     try {
       var data = await apiService.get(
-          endPoint: 'volumes?filters=free-ebooks&sort=relevence&q=$category');
+          endPoint:
+              'volumes?filters=free-ebooks&sort=relevence&q=subject:$category');
 
       List<BookModel> books = [];
       for (var item in data['items']) {
