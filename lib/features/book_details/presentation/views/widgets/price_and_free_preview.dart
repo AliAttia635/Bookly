@@ -9,11 +9,11 @@ class PriceAndFreePreveiw extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 8.0),
+      padding: EdgeInsets.symmetric(horizontal: 8.0),
       child: Row(
         children: [
           CustomButton(
-            text: "19.99 \$",
+            text: "free",
             backgroundColor: Colors.white,
             textColor: Colors.black,
             borderRadius: BorderRadius.only(
@@ -22,14 +22,13 @@ class PriceAndFreePreveiw extends StatelessWidget {
             ),
           ),
           CustomButton(
-            text: "free preview",
+            text: "preview",
             backgroundColor: Color(0xffEF8262),
             textColor: Colors.white,
             borderRadius: BorderRadius.only(
               topRight: Radius.circular(18),
               bottomRight: Radius.circular(18),
             ),
-            sizeFont: 16,
           ),
         ],
       ),

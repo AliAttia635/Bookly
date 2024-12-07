@@ -17,7 +17,7 @@ class NewestBooksItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        GoRouter.of(context).push(Routes.kBookDetailsView);
+        GoRouter.of(context).push(Routes.kBookDetailsView, extra: bookModel);
       },
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 10.0),
@@ -30,8 +30,7 @@ class NewestBooksItem extends StatelessWidget {
               // crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 CustomBookImage(
-                  imageUrl: bookModel.volumeInfo.imageLinks?.thumbnail ??
-                      "https://media.istockphoto.com/id/2060984408/photo/stack-of-colorful-books-education-background-back-to-school-book-hardback-colorful-books-on.jpg?s=2048x2048&w=is&k=20&c=fMIu6GS3-sZtPEOMbFVhzFEgu3voYWaLJkuWXaFRsxY=",
+                  imageUrl: bookModel.volumeInfo.imageLinks?.thumbnail ?? "",
                 ),
                 NewestBookDetails(
                   bookModel: bookModel,
