@@ -4,6 +4,7 @@ import 'package:bookly_app/features/book_details/presentation/views/widgets/book
 import 'package:bookly_app/features/home/data/models/book_model/book_model.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:go_router/go_router.dart';
 
 class BookDetailsView extends StatelessWidget {
   const BookDetailsView({super.key, required this.bookModel});
@@ -20,7 +21,7 @@ class BookDetailsView extends StatelessWidget {
               size: 30,
             ),
             onPressed: () {
-              Navigator.pop(context);
+              GoRouter.of(context).pop();
             },
           ),
           icon: const Icon(FontAwesomeIcons.cartShopping),

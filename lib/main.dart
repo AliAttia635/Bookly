@@ -2,6 +2,7 @@ import 'package:bookly_app/core/themes/color_app.dart';
 import 'package:bookly_app/core/constants/routes/app_router.dart';
 import 'package:bookly_app/core/utils/service_locator.dart';
 import 'package:bookly_app/features/home/data/repos/home_repo_implementaion.dart';
+import 'package:bookly_app/features/home/presentation/manager/bookly_bloc_observer.dart';
 import 'package:bookly_app/features/home/presentation/manager/featured_books_cubit/featured_books_cubit.dart';
 import 'package:bookly_app/features/home/presentation/manager/newest_books_cuit/newest_books_cubit.dart';
 import 'package:flutter/material.dart';
@@ -9,6 +10,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
+  Bloc.observer = BooklyBlocObserver();
   setupServiceLocator();
   runApp(const BooklyApp());
 }
