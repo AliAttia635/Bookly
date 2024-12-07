@@ -27,12 +27,14 @@ class NewestBookDetails extends StatelessWidget {
               overflow: TextOverflow.ellipsis,
             ),
             subtitle: Text(
-              bookModel.volumeInfo.authors[0],
+              bookModel.volumeInfo.authors.toString() == "null"
+                  ? "No Author"
+                  : bookModel.volumeInfo.authors![0],
               style: Styles.textStyle14,
             ),
           ),
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: 14.0),
+            padding: const EdgeInsets.symmetric(horizontal: 14.0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [

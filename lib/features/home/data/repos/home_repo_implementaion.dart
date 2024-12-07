@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:bookly_app/core/errors/failures.dart';
 import 'package:bookly_app/core/utils/api_service.dart';
 import 'package:bookly_app/features/home/data/models/book_model/book_model.dart';
@@ -39,11 +41,17 @@ class HomeRepoImplementaion implements HomeRepo {
     try {
       var data = await apiService.get(
           endPoint:
-              'volumes?filters=free-ebooks&sort=newest&q=subject:programming');
+              'volumes?filters=free-ebooks&sort=newest&q=computer science');
 
       List<BookModel> books = [];
       for (var item in data['items']) {
-        books.add(BookModel.fromJson(item));
+        try {
+          books.add(BookModel.fromJson(item));
+        } catch (e) {
+          books.add(BookModel.fromJson(item));
+          // print("Problem Problem Problem Problem ");
+          // print(item);
+        }
       }
 
       return right(books);

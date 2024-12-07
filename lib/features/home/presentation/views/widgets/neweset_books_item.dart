@@ -30,7 +30,8 @@ class NewestBooksItem extends StatelessWidget {
               // crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 CustomBookImage(
-                  imageUrl: bookModel.volumeInfo.imageLinks.thumbnail,
+                  imageUrl: bookModel.volumeInfo.imageLinks?.thumbnail ??
+                      "https://media.istockphoto.com/id/2060984408/photo/stack-of-colorful-books-education-background-back-to-school-book-hardback-colorful-books-on.jpg?s=2048x2048&w=is&k=20&c=fMIu6GS3-sZtPEOMbFVhzFEgu3voYWaLJkuWXaFRsxY=",
                 ),
                 NewestBookDetails(
                   bookModel: bookModel,
