@@ -30,6 +30,8 @@ class NewestBookDetails extends StatelessWidget {
               bookModel.volumeInfo.authors.toString() == "null"
                   ? "No Author"
                   : bookModel.volumeInfo.authors![0],
+              overflow: TextOverflow.ellipsis,
+              maxLines: 2,
               style: Styles.textStyle14,
             ),
           ),

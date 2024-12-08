@@ -1,10 +1,13 @@
+import 'package:bookly_app/features/books_search/presentation/manager/serach_books_cubit/search_books_cubit.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class CustomTextField extends StatelessWidget {
-  const CustomTextField({
+  CustomTextField({
     super.key,
   });
+  var bookName;
 
   @override
   Widget build(BuildContext context) {
@@ -24,6 +27,9 @@ class CustomTextField extends StatelessWidget {
         focusedBorder: buildOutlineInuptBorder(),
         enabledBorder: buildOutlineInuptBorder(),
       ),
+      onChanged: (data) {
+        BlocProvider.of<SearchBooksCubit>(context).serachBooks(bookName: data);
+      },
     );
   }
 
