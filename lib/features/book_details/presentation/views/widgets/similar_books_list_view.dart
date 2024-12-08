@@ -15,8 +15,10 @@ class SimilarBooksListView extends StatelessWidget {
     return BlocBuilder<SimilarBooksCubit, SimilarBooksState>(
       builder: (context, state) {
         if (state is SimilarBooksSuccess) {
-          return Expanded(
+          return SizedBox(
+            height: MediaQuery.of(context).size.height * .18,
             child: ListView.builder(
+                shrinkWrap: true,
                 itemCount: state.booksList.length,
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
