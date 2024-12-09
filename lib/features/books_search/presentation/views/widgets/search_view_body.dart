@@ -10,8 +10,8 @@ class SearchViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 14.0),
+    return const Padding(
+      padding: EdgeInsets.symmetric(horizontal: 14.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -21,10 +21,6 @@ class SearchViewBody extends StatelessWidget {
           CustomTextField(),
           SizedBox(
             height: 10,
-          ),
-          Text(
-            "Serach Result : ",
-            style: Styles.textStyle16,
           ),
           SizedBox(
             height: 10,

@@ -1,5 +1,5 @@
 import 'package:bookly_app/core/constants/routes/routes.dart';
-import 'package:bookly_app/core/utils/service_locator.dart';
+import 'package:bookly_app/core/utils/Api/service_locator.dart';
 import 'package:bookly_app/features/book_details/presentation/views/book_details_view.dart';
 import 'package:bookly_app/features/books_search/data/repos/search_repo_implementation.dart';
 import 'package:bookly_app/features/books_search/presentation/manager/serach_books_cubit/search_books_cubit.dart';

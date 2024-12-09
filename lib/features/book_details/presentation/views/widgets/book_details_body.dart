@@ -47,7 +47,9 @@ class BookDetailsBody extends StatelessWidget {
             const SizedBox(
               height: 12,
             ),
-            const PriceAndFreePreveiw(),
+            PriceAndFreePreveiw(
+              bookModel: bookModel,
+            ),
             const SizedBox(
               height: 15,
             ),
